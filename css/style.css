@@ -39,10 +39,14 @@ header h1 {
     border-radius: 5px;
 }
 
-/* ***** main content margin left ***** */
+/* ***** main content margin left + padding bottom ***** */
 
 .form-add, .task-group {
     margin-left: 30px;
+}
+
+main {
+    padding-bottom: 20px;
 }
 
 /* ***** form add *****  */
@@ -81,9 +85,12 @@ main hr {
 }
 
 .task {
-    margin-top: 5px;
+    margin: 10px 0 25px;
     font-weight: 500;
 }
+
+
+/* ***** task chech cross *****  */
 
 .check {
     color: green;
@@ -91,6 +98,19 @@ main hr {
     border-radius: 50%;
     padding: 0 3px;
 }
+
+.cross {
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 0 3px;
+}
+
+.check, .cross {
+    margin-right: 5px;
+}
+
+/* ***** task type badge ***** */
 
 .task-type {
     color: white;
@@ -103,4 +123,29 @@ main hr {
 .editorial {
     border: 1px solid #45ABEA;
     background-color: #45ABEA;
+}
+
+.goals {
+    border: 1px solid #9C72E4;
+    background-color: #9C72E4;
+}
+
+.recruiting {
+    border: 1px solid #64C0A9;
+    background-color: #64C0A9;
+}
+
+.mobile {
+    border: 1px solid #F29E33;
+    background-color: #F29E33;
+}
+
+.website {
+    border: 1px solid #D863A1;
+    background-color: #D863A1;
+}
+
+.sales {
+    border: 1px solid #B0C926;
+    background-color: #B0C926;
 }
