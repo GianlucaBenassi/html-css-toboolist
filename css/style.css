@@ -83,11 +83,14 @@ main hr {
     margin-top: 20px;
 }
 
+.triangle {
+    font-size: 15px;
+}
+
 .task {
     margin: 10px 0 25px;
     font-weight: 500;
 }
-
 
 /* ***** task chech cross *****  */
 
