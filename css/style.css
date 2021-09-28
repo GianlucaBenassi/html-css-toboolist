@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -24,4 +25,6 @@ header {
 header h1 {
     display: inline;
     vertical-align: middle;
+    font-size: 40px;
+    font-weight: 700;
 }
