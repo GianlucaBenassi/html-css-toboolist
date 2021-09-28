@@ -3,3 +3,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: #F6F8F9;
+}
+
+/* ***** header ***** */
+
+header {
+    background-color: white;
+    height: 70px;
+    line-height: 70px;
+}
+
+#logo {
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+header h1 {
+    display: inline;
+    vertical-align: middle;
+}
